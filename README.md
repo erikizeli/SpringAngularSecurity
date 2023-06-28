@@ -5,7 +5,7 @@
 ## Preview
 
 You'll be greeted with a login page, head to the register page, and create an account. Your role is gonna determine your privileges.
-After logging in you'll be able to add text to the textboxes based on your role. The user has the authority to use one while the admin can use all 3 boxes.
+After logging in you'll be able to add text to the textboxes based on your role. The user has the authority to use one, the manager two while the admin can use all three boxes.
 
 ## Installation
 
