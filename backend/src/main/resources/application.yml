@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/jwt_security
-    username: erik
-    password: erikpassword
+    url: jdbc:<postgresql>://localhost:5432/<your-database>
+    username: <your-username>
+    password: <your-password>
     driver-class-name: org.postgresql.Driver
   main:
     allow-circular-references: true
