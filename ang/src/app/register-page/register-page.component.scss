@@ -1,0 +1,39 @@
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    justify-content: center;
+}
+
+.wrap2{
+    display: flex;
+}
+
+.lab{
+    display: inline;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.body-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: min-content;
+    height: 100%;
+}
+
+.reg{
+    margin-top: 10px;
+    width: auto;
+}
+
