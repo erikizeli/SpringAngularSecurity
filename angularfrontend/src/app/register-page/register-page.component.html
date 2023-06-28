@@ -1,0 +1,32 @@
+<div class="body-container">
+    <div class="container">
+        <div class="form-div">
+            <form class="wrap" (ngSubmit)="register()">
+                <label >First Name</label>
+                <input type="text" name="firstName" [(ngModel)]="formData.firstName" required>
+                <label >Last Name</label>
+                <input type="text" name="lastName" [(ngModel)]="formData.lastName" required>
+                <label >Email</label>
+                <input type="text" name="email" [(ngModel)]="formData.email" required>
+                <label >Password</label>
+                <input type="text" name="password" [(ngModel)]="formData.password" required>
+                <p>chose role</p>
+                <div class="wrap2">
+                <input type="radio" value="USER" id="user" name="user" [(ngModel)]="formData.role" required>
+                <label for="user">user</label>
+                <input type="radio" value="MANAGER" id="manager" name="manager" [(ngModel)]="formData.role" required>
+                <label for="manager">manager</label>
+                <input type="radio" value="ADMIN" id="admin" name="admin" [(ngModel)]="formData.role" required>
+                <label for="admin">admin</label>
+                </div>
+            <button type="submit">Register</button>
+            </form>
+        </div>
+        <div>
+
+        </div>
+        <div class="reg">
+            <a [routerLink]="['/']">login here</a>
+        </div>
+    </div>
+</div>

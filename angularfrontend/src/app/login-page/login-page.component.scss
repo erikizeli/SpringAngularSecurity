@@ -1,0 +1,31 @@
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: min-content;
+    justify-content: center;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.body-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: min-content;
+    height: 100%;
+}
+
+.reg{
+    margin-top: 10px;
+    width: auto;
+}
+

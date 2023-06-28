@@ -1,0 +1,12 @@
+<div class="body-container">
+<div class="container">
+  <div class="text-outer-container">
+    <app-container [addData]="addData" [element]="user" role="user" ></app-container>
+    <app-container [addData]="addData" [element]="manager" role="management" ></app-container>
+    <app-container [addData]="addData" [element]="admin" role="admin" ></app-container>
+  </div>
+  <div class="logout">
+    <button (click)="logout()" >Log out</button>
+  </div>
+  </div>
+</div>
