@@ -30,3 +30,10 @@ Make sure to update the src/main/java/resources/application.yml file to suit you
 
 ![image](https://github.com/paethrick/SpringAngularSecurity/assets/80585437/a02293a8-eade-4a87-9a6b-c4a8df0161dc)
 
+## Technologies
+
+* [Java Spring](https://spring.io/)
+* [Angular](https://angular.io/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [PostgreSQL](https://www.postgresql.org/)
+* [JWT](https://jwt.io/)
