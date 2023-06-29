@@ -123,6 +123,8 @@ export class MainpageComponent implements OnInit {
     )
 
     localStorage.setItem("loggedIn","false")
+    localStorage.removeItem("email")
+    localStorage.removeItem("token")
     this.router.navigate(["/login"])
   }
 }
